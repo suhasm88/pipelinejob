@@ -19,10 +19,11 @@ pipeline {
                                  sleep 5
                                  echo "this is a Test stage"
                               '''
-				}
+				
                         }
 
                 }
+		}
                 stage ('Deploy') {
 			agent { label 'node1' }
 
