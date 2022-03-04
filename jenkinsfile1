@@ -22,8 +22,8 @@ pipeline {
 				
                         }
 
-                }
-		}
+               		      }
+			}
                 stage ('Deploy') {
 			agent { label 'node1' }
 
